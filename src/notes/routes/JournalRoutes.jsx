@@ -6,7 +6,6 @@ export const JournalRoutes = () => {
         <Routes>
             <Route path = '/' element = {<NotePage/>}/>
             <Route path = '/*' element = {<Navigate to = '/auth'/>}/>
-
         </Routes>
     )
 }
